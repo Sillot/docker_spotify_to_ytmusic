@@ -1,0 +1,28 @@
+POST /youtubei/v1/browse?prettyPrint=false HTTP/3
+Host: music.youtube.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0
+Accept: */*
+Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/json
+Content-Length: [CONTENT_LENGTH]
+Referer: https://music.youtube.com/
+X-Goog-Visitor-Id: [YOUR_VISITOR_ID]
+X-Youtube-Bootstrap-Logged-In: true
+X-Youtube-Client-Name: 67
+X-Youtube-Client-Version: [CLIENT_VERSION]
+X-Goog-AuthUser: 0
+X-Origin: https://music.youtube.com
+X-Goog-PageId: [YOUR_PAGE_ID]
+Origin: https://music.youtube.com
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: same-origin
+Sec-Fetch-Site: same-origin
+Authorization: SAPISIDHASH [YOUR_SAPISIDHASH] SAPISID1PHASH [YOUR_SAPISID1PHASH] SAPISID3PHASH [YOUR_SAPISID3PHASH]
+Connection: keep-alive
+Alt-Used: music.youtube.com
+Cookie: SOCS=[YOUR_SOCS]; VISITOR_PRIVACY_METADATA=[YOUR_VISITOR_PRIVACY_METADATA]; VISITOR_INFO1_LIVE=[YOUR_VISITOR_INFO]; __Secure-ROLLOUT_TOKEN=[YOUR_ROLLOUT_TOKEN]; _gcl_au=[YOUR_GCL_AU]; PREF=[YOUR_PREF]; YSC=[YOUR_YSC]; __Secure-1PSIDTS=[YOUR_1PSIDTS]; __Secure-3PSIDTS=[YOUR_3PSIDTS]; HSID=[YOUR_HSID]; SSID=[YOUR_SSID]; APISID=[YOUR_APISID]; SAPISID=[YOUR_SAPISID]; __Secure-1PAPISID=[YOUR_1PAPISID]; __Secure-3PAPISID=[YOUR_3PAPISID]; SID=[YOUR_SID]; __Secure-1PSID=[YOUR_1PSID]; __Secure-3PSID=[YOUR_3PSID]; LOGIN_INFO=[YOUR_LOGIN_INFO]; SIDCC=[YOUR_SIDCC]; __Secure-1PSIDCC=[YOUR_1PSIDCC]; __Secure-3PSIDCC=[YOUR_3PSIDCC]
+Priority: u=0
+Pragma: no-cache
+Cache-Control: no-cache
+TE: trailers

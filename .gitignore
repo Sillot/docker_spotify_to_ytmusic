@@ -1,0 +1,10 @@
+# Ignorer les informations d'authentification sensibles
+raw_headers.txt
+
+# Ignorer le contenu des dossiers mais garder les dossiers eux-mêmes
+code/*
+data/*
+
+# Mais ne pas ignorer les fichiers .gitkeep pour conserver les dossiers vides
+!code/.gitkeep
+!data/.gitkeep
